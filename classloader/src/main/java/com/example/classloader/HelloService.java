@@ -5,4 +5,9 @@ package com.example.classloader;
  * @version 1.0 : HelloService v0.1 2020/6/23 17:13 haifeng.pang Exp $
  **/
 public class HelloService {
+
+    public void hello() {
+        System.out.println(Thread.currentThread().getContextClassLoader());
+        System.out.println("hello");
+    }
 }
