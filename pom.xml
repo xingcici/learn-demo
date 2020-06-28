@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>classloader</module>
+        <module>reflect</module>
     </modules>
 
     <name>learn-demo</name>
