@@ -11,6 +11,7 @@
     <modules>
         <module>classloader</module>
         <module>reflect</module>
+        <module>grpc</module>
     </modules>
 
     <name>learn-demo</name>
