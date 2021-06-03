@@ -19,8 +19,8 @@ public class MqConsumer implements LifeCycle{
     @Override
     public void init() throws Exception{
         consumer.setConsumerGroup("local");
-        consumer.setNamesrvAddr("47.101.33.17:9876");
-        consumer.subscribe("testMQ", "*");
+        consumer.setNamesrvAddr("rocketmq-namesrv01-vss.daily.idcvdian.com:9876");
+        consumer.subscribe("vss_QA_VSS_APP_10.37.48.135_3403_575", "*");
 
     }
 
